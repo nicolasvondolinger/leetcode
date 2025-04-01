@@ -1,4 +1,3 @@
-#define _ ios_base::sync_with_stdio(0);cin.fle(0);
 #define endl '\n'
 #define ff first;
 #define ss second;
@@ -8,3 +7,10 @@ typedef long long ll;
 
 const int INF = 0x3f3f3f3f;
 const ll LINF = 0x3f3f3f3f3f3f3f3fll;
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
